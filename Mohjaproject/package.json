@@ -1,0 +1,38 @@
+{
+  "name": "ayoubproject",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.4.8",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/drawer": "^6.6.2",
+    "@react-navigation/material-top-tabs": "^6.6.2",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-navigation/tabs": "^0.0.0-alpha.12",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "deprecated-react-native-prop-types": "^4.1.0",
+    "expo": "~48.0.15",
+    "expo-status-bar": "~1.4.4",
+    "mongoose": "^7.2.1",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-pie": "^1.1.2",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-svg": "13.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
