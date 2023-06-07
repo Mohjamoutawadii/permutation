@@ -31,7 +31,7 @@ const Inscription = () => {
 
     useEffect(() => {
         axios
-            .get('https://troubled-red-garb.cyclic.app/professeurs')
+            .get('https://tiny-worm-nightgown.cyclic.app/professeurs')
             .then((response) => {
                 setProfesseurs(response.data);
                 const uniqueGrades = [...new Set(response.data.map((prof) => prof.grade))];
