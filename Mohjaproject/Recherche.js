@@ -21,7 +21,7 @@ const Recherche = () => {
     const [villeActuelle, setVilleActuelle] = useState('');
     const [villeDesiree, setVilleDesiree] = useState('');
 
-    const baseURL = 'https://troubled-red-garb.cyclic.app/professeurs';
+    const baseURL = 'https://tiny-worm-nightgown.cyclic.app/professeurs';
 
     useEffect(() => {
         axios
