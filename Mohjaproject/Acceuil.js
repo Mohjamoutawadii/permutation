@@ -14,7 +14,7 @@ const Acceuil = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('https://troubled-red-garb.cyclic.app/professeurs');
+            const response = await fetch('https://tiny-worm-nightgown.cyclic.app/professeurs');
             const data = await response.json();
             setStatistics(data);
             setProfessorsCount(data.length);
