@@ -18,7 +18,7 @@ const Combinaison = () => {
     const [showResults, setShowResults] = useState(false);
     const [combinations, setCombinations] = useState([]);
 
-    const baseURL = 'https://troubled-red-garb.cyclic.app';
+    const baseURL = 'https://tiny-worm-nightgown.cyclic.app';
 
     useEffect(() => {
         axios
