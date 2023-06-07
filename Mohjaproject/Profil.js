@@ -26,7 +26,7 @@ const Profil = () => {
 
     useEffect(() => {
         axios
-            .get('https://troubled-red-garb.cyclic.app/professeurs')
+            .get('https://tiny-worm-nightgown.cyclic.app/professeurs')
             .then(response => {
                 const professeurLachgar = response.data.find(prof => prof.nom === 'LACHGAR');
                 setProfesseur(professeurLachgar);
@@ -49,7 +49,7 @@ const Profil = () => {
 
     useEffect(() => {
         axios
-            .get('https://troubled-red-garb.cyclic.app/professeurs')
+            .get('https://tiny-worm-nightgown.cyclic.app/professeurs')
             .then(response => {
                 const uniqueGrades = [...new Set(response.data.map(prof => prof.grade))];
                 const uniqueVilles = [...new Set(response.data.map(prof => prof.villeFaculteActuelle))];
